@@ -21,3 +21,24 @@ console.log(numbers.size);
 console.log("Xoá toàn bộ phần tử: numbers.clear()");
 numbers.clear();
 console.log(numbers);
+
+
+console.log("%c CHUYỂN ĐỔI SET SANG ARRAY", "color: red");
+
+console.log("Set");
+let studens = new Set(["Cường", "Tùng", "Đạt"]);
+console.log(studens);
+
+console.log("Array");
+let arrStudens = [...studens];
+console.log(arrStudens);
+
+console.log("%c CHUYỂN ĐỔI ARRAY SANG SET", "color: red");
+
+console.log("Array");
+let arrLaptops = ["Asus", "Dell", "Hp"];
+console.log(arrLaptops);
+
+console.log("Set")
+let setLaptops = new Set(arrLaptops);
+console.log(setLaptops);
