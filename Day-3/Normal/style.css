@@ -1,0 +1,18 @@
+body{
+    margin: auto auto;
+    padding-left: 50px;
+}
+
+body div{
+    text-align: center;
+    font-size: 120%;
+}
+
+.title{
+    font-size: 120%;
+    color: crimson;
+}
+
+.description{
+    color: darkolivegreen;
+}
